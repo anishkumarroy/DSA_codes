@@ -1,0 +1,14 @@
+Q2) Rotation of array.
+Q4) Sort Positive and negative elements separately in array.
+Q5)suppose we have an array of strings={ "ram", "shyam", "mar", "sohan"} check for palindrome and output the number of palindromes in the array of strings.
+
+Q8) Insert element at any intermediate position.
+    Delete Node from - a) beginning b) end c) intermediate
+    Traverse & print the linked list
+    Exit
+Q9) WAP to perform deletion operation in doubly linked list from - a) beginning b) End c) Any position
+
+Q10) WAP to insert at beginning, at end, at any specific location in a circular linked list
+Q11) WAP to delete from beginning, from end, from any specific position in a circular linked list.
+Q12) WAP to perform push and pop operation in stack using linked list.
+
