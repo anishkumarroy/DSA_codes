@@ -20,7 +20,7 @@ void dequeue_rear(int deque[], int n){
 }
 int main(){
     printf("Enter the size of the array: "); int n; scanf("%d", &n); int deque[n],choice=1; 
-    while(choice){printf("Enter your choice:\n1. Enqueue from front\n2. Enqueue from rear\n3. Dequeue from front\n4. Dequeue from rear\n5. Display\n10. Exit"); scanf("%d", &choice);
+    while(choice){printf("Enter your choice:\n1. Enqueue from front\n2. Enqueue from rear\n3. Dequeue from front\n4. Dequeue from rear\n5. Display\n6. Get front\n7. Get rear\n8. Exit"); scanf("%d", &choice);
         switch(choice){
             case 1: enqueue_front(deque,n); break;
             case 2: enqueue_rear(deque,n); break;
@@ -30,7 +30,7 @@ int main(){
             case 6: getfront(deque); break;
             case 7: getrear(deque); break;
             
-            case 9: exit(0); break;
+            case 8: exit(0); break;
             default: printf("invalid choice\n");
         }
     }
