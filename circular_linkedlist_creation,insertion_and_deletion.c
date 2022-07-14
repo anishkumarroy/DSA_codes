@@ -43,9 +43,7 @@ void display(){
 	struct node *temp; temp=tail->next; do{printf("%d ", temp->data); temp=temp->next;}while(temp!=tail->next);
 }
 void delete_from_beg(){
-	struct node *temp=tail->next; tail->nexvoid insert_at_end(struct node *tail){
-printf("Enter data: "); struct node *newnode; newnode=(struct node *)malloc(sizeof(struct node)); scanf("%d", &newnode->data);newnode->next=tail->next; tail->next=newnode; tail=newnode;
-}t=tail->next->next; free(temp);
+	struct node *temp=tail->next; tail->next=tail->next->next;  free(temp);
 }
 
 void delete_from_specific_posn(int n){
